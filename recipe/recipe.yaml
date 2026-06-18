@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: gempy
-  version: 2025.2.0
+  version: "2026.0.3"
   python_min: 3.10
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/gempy-${{ version }}.tar.gz
-  sha256: ea2fdf3c8de745122373d23803276b548e899ea0673f0678c5280fb47c6a64b9
+  sha256: 35f7b181a92767a925b3714dbee03cf6fa3b7315c3cddc4753c0f440dd1173c5
 
 build:
   number: 0
